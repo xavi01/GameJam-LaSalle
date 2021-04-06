@@ -326,7 +326,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &452897150
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -340,9 +340,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0682233, y: 0}
   serializedVersion: 2
-  m_Radius: 10.000001
+  m_Radius: 8.703813
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,9 +632,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.4432908, y: -0.71359724}
   serializedVersion: 2
-  m_Radius: 10.000001
+  m_Radius: 8.92343
 --- !u!50 &1381246492
 Rigidbody2D:
   serializedVersion: 4
@@ -655,7 +655,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1938829511
 GameObject:
   m_ObjectHideFlags: 0
