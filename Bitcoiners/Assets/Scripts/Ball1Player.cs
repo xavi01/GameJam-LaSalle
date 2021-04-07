@@ -9,6 +9,7 @@ public class Ball1Player : MonoBehaviour
     public Text gols1text;
     public GameObject player1;
     public GameObject player2;
+    public GameObject espada1;
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class Ball1Player : MonoBehaviour
             gols1text.text = "Player 1 - " + golsPlayer1;
             player1.transform.position = new Vector3 (-6, 0, 0);
             player2.transform.position = new Vector3( 6, 0, 0);
-            player1.gameObject.GetComponent<Player1Controller>().setBall();
+            //espada1.gameObject.GetComponent<Espada1Controller>().setBall();
         }
     }
 }
