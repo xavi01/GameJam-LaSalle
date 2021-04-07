@@ -590,7 +590,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0 - PLAYER 2
+  m_Text: '0 - PLAYER 23
+
+'
 --- !u!222 &539217747
 CanvasRenderer:
   m_ObjectHideFlags: 0
