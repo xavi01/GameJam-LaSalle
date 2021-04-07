@@ -8,6 +8,9 @@ TagManager:
   - Player2
   - Porteria1
   - Porteria2
+  - Pelota1
+  - Pelota2
+  - Pelota
   layers:
   - Default
   - TransparentFX
