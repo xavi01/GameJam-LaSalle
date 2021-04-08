@@ -6,7 +6,6 @@ public class Player1Controller : MonoBehaviour
 {
     public float speed;
 
-    public int velocity;
 
     void Start()
     {
