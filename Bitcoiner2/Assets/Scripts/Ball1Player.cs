@@ -17,13 +17,13 @@ public class Ball1Player : MonoBehaviour
     {
         golsPlayer1 = 0;
         gols1text.text = "Player 1 - 0";
-        
+
     }
 
    
     void Update()
     {
-        
+
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -32,8 +32,8 @@ public class Ball1Player : MonoBehaviour
         {
             golsPlayer1++;
             gols1text.text = "Player 1 - " + golsPlayer1;
-            player1.transform.position = new Vector3 (-6, 2, 0);
-            player2.transform.position = new Vector3( 5, 2, 0);
+            player1.transform.position = new Vector3 (-6.0f, 2.0f, 0.0f);
+            player2.transform.position = new Vector3(5.0f, 2.0f, 0.0f);
             espada1.gameObject.GetComponent<Espada1>().setBall();
             pelota_medio.SetActive(true);
         }
