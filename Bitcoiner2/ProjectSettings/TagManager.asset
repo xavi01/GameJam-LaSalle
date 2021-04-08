@@ -57,3 +57,6 @@ TagManager:
   - name: Ball
     uniqueID: 1119709581
     locked: 0
+  - name: Espada
+    uniqueID: 1170782589
+    locked: 0

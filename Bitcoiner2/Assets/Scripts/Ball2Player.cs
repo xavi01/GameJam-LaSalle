@@ -10,12 +10,12 @@ public class Ball2Player : MonoBehaviour
     public GameObject player1;
     public GameObject player2;
     public GameObject espada2;
+    public GameObject pelota_medio;
 
     void Start()
     {
         golsPlayer2 = 0;
         gols2text.text = "0 - Player 2";
-
     }
 
 
@@ -30,9 +30,10 @@ public class Ball2Player : MonoBehaviour
         {
             golsPlayer2++;
             gols2text.text = golsPlayer2 + " - Player 2";
-            player1.transform.position = new Vector3(-6, 0, 0);
-            player2.transform.position = new Vector3(6, 0, 0);
-            //espada2.gameObject.GetComponent<Espada2Cntroller>().setBall();
+            player1.transform.position = new Vector3(-6, 2, 0);
+            player2.transform.position = new Vector3(5, 2, 0);
+            espada2.gameObject.GetComponent<Espada2Cntroller>().setBall();
+            pelota_medio.SetActive(true);
 
         }
     }

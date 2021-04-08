@@ -7,8 +7,8 @@ public class Espada1 : MonoBehaviour
     private int count;
     private bool ball;
     public GameObject pelota;
-    public GameObject player2;
     public GameObject espada2;
+    public GameObject espada_meva;
 
     void Start()
     {
@@ -22,10 +22,12 @@ public class Espada1 : MonoBehaviour
         if (ball == true)
         {
             pelota.SetActive(true);
+            espada_meva.gameObject.SetActive(false);
         }
 
         if (ball == false)
         {
+            espada_meva.gameObject.SetActive(true);
             pelota.SetActive(false);
         }
     }
@@ -41,7 +43,7 @@ public class Espada1 : MonoBehaviour
         if (collision.gameObject.CompareTag("Pelota2"))
         {
             ball = true;
-            espada2.gameObject.GetComponent<Espada1Controller>().setBall();
+            espada2.gameObject.GetComponent<Espada2Cntroller>().setBall();
 
         }
 
